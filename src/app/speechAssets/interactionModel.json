@@ -1,0 +1,112 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "rock paper scissors",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": [
+                        "Cancel"
+                    ]
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": [
+                        "Help me",
+                        "Please help me",
+                        "I need help",
+                        "Need help",
+                        "Help"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "Leave",
+                        "Stop"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "NewGameIntent",
+                    "slots": [],
+                    "samples": [
+                        "let's battle",
+                        "start a game",
+                        "let't play again",
+                        "start a new game"
+                    ]
+                },
+                {
+                    "name": "ScissorsIntent",
+                    "slots": [],
+                    "samples": [
+                        "I choose scissors",
+                        "caesar",
+                        "scissor",
+                        "scissors"
+                    ]
+                },
+                {
+                    "name": "PaperIntent",
+                    "slots": [],
+                    "samples": [
+                        "pick paper",
+                        "I choose paper",
+                        "papers",
+                        "paper"
+                    ]
+                },
+                {
+                    "name": "RockIntent",
+                    "slots": [],
+                    "samples": [
+                        "pick rock",
+                        "I choose rock",
+                        "rocks",
+                        "rock"
+                    ]
+                },
+                {
+                    "name": "MaxWinsIntent",
+                    "slots": [
+                        {
+                            "name": "wins",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "{wins} wins",
+                        "{wins}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.YesIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NoIntent",
+                    "samples": []
+                },
+                {
+                    "name": "ScoreIntent",
+                    "slots": [],
+                    "samples": [
+                        "Who is winning",
+                        "Game score",
+                        "The score",
+                        "What's the score"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
